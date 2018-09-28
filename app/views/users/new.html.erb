@@ -1,0 +1,8 @@
+<h1>User Registration</h1>
+<form action="/users" method="post">
+    <input type="hidden" name="authenticity_token" value="<% form_authenticity_token %>">
+    <input type="text" name="name">
+    <input type="text" name="email">
+    <input type="password" name="password">
+    <input type="password" name="password_confirmations">
+</form>
